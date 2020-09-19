@@ -55,7 +55,7 @@ namespace Application.Controllers
         [Route("Login")]
         public ActionResult Login([FromServices] IUserFacade userService, [FromBody] UserInput dto)
         {
-            var user = userService.Sigin(dto.Email, dto.Password);
+            var user = userService.Signin(dto.Email, dto.Password);
             user.Token = TokenService.GenerateToken(user);            
             return Ok(user);
         }

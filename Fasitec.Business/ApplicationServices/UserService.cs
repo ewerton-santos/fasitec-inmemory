@@ -54,7 +54,7 @@ namespace Fasitec.Business.ApplicationServices
             unitOfWork.Commit();
         }
 
-        public UserOutput Sigin(string email, string password)
+        public UserOutput Signin(string email, string password)
         {
             var user = userRepository
             .GetAll()

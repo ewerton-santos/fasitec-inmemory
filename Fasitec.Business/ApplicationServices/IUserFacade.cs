@@ -6,7 +6,7 @@ namespace Fasitec.Business.ApplicationServices
     public interface IUserFacade
     {
         IQueryable<UserOutput> All();
-        UserOutput Sigin(string email, string password);
+        UserOutput Signin(string email, string password);
         UserOutput ById(int userId);
         UserOutput Create(UserInput user);
         UserOutput Modify(UserInput user);
