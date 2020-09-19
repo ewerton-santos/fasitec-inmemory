@@ -1,13 +1,10 @@
-using Microsoft.IdentityModel.Protocols;
 using Microsoft.IdentityModel.Tokens;
 using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-
 using Fasitec.Business.Dto;
-using Fasitec.Business.Config;
+using Fasitec.Api.Config;
 
 namespace Fasitec.Business.Util
 {

@@ -1,4 +1,4 @@
-namespace Fasitec.Business.Config
+namespace Fasitec.Api.Config
 {
     public static class Settings
     {
